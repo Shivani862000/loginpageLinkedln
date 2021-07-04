@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.container{
+  padding-left: 20px;
+
+    background:rgb(252, 251, 251);
+    width: 320px;
+    height: 480px;
+    border-radius: 7px;
+    box-shadow: 0 10px 15px rgba(179 ,179,179,7);
+   flex-direction: column;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.container h2{
+color:#0A66C3;
+font-size: 1.6rem;
+
+}
+.container h2 i{
+    padding-left: .1rem;
+    font-size: 1.8rem;
+}
+.intro-text p{
+    font-size: .8rem;
+    padding-top: .2rem;
+}
+
+.input input{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    outline:none;
+    border-radius: 15px;
+    margin-top: .1rem;
+    border: 2px solid #0A66C3;
+}
+.input input:hover{
+    border:2px solid #073461;
+}
+.input label{
+    padding-left: 10px;
+    
+}
+.forgot-pass{
+  text-decoration: none;
+font-weight: bolder;
+color: #6595c5;
+transition: .3s;
+border-radius: 2px;
+cursor: pointer;
+}
+
+.forgot-pass:hover{
+    color: #0A66C3;
+    
+}
+button{
+    margin-left: 8px;
+    width: 250px;
+    height: 40px;;
+    background: #0A66C3;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background: #0c335a;
+}
+.join-link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #0A66C3;
+    font-size: .8rem;
+  text-align: center;
+  margin-top: .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
